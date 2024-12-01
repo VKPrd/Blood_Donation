@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Donor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background">
+        <a>Home</a>
+        <a>Need Blood</a>
+        <a>Register as Donor</a>
+    </div>
+   
+
+    
+
+<div class="main">
+    <button>I Need Blood</button>
+
+    <label>Select District</label>
+    <input list="District" placeholder="District Choose">
+    <datalist id="District" >
+        <option value="Madhubani"></option>
+        <option value="Darbhanga"></option>
+        <option value="Patna"></option>
+        <option value="Muzaffarpur"></option>
+        <option value="Other District"></option>
+    </datalist>
+
+
+    <lable>Select Blood Group</lable>
+    <input list="group" placeholder="Any Group">
+    <datalist id="group">
+        <option value="A"></option>
+        <option value="A+"></option>
+        <option value="B"></option>
+        <option value="B+"></option>
+        <option value="O"></option>
+        <option value="Other Group"></option>
+    </datalist>
+
+
+    <label>Enter Pin Code</label>
+    <input type="text" placeholder="123456" required maxlength="6"/>
+
+
+    <button class="find" onclick="find()">Find</button>
+</div>
+<p id="blood"></p>
+<script src="style.js"></script>
+</body>
+</html>

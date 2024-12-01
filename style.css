@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+body{
+    background: rgb(60, 96, 136);
+      
+}
+.background{
+    margin-top: 20px;
+    background-color: gray;
+    padding:20px;
+    margin-left: 35%;
+    margin-right: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    background-color: red;
+    color:white;
+    border: none;
+    padding:10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+button.find{
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 10px;
+}
+.main{
+    padding:30px 50px;
+    margin-left: 35%;
+    margin-right: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border:solid;
+    background-color: rgb(33, 33, 114);
+}
